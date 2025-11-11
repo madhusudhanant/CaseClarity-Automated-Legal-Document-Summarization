@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 __version__ = "0.0.0"
     
 REPO_NAME = "document_summarization_for_legal_texts"
-AUTHOR_USER_NAME = "Vamsi-Krishna-NP"
+AUTHOR_USER_NAME = "madhusudhanant"
 SRC_REPO = "datascience"
 AUTHOR_EMAIL = "mr.vkjilla2024@gmail.com"
 

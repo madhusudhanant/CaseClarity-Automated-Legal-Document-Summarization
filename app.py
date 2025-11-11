@@ -17,7 +17,7 @@ except Exception:  # pragma: no cover - optional
 # Page and Theme Setup
 # -------------------------
 st.set_page_config(
-	page_title="Case Clarity – Legal Document Summarizer",
+	page_title="CaseClarity – Automated Legal Document Summarization",
 	page_icon="⚖️",
 	layout="wide",
 )
@@ -241,8 +241,8 @@ st.sidebar.success(f"Model loaded on: {device.upper()}")
 st.markdown(
 	"""
 	<div class="legal-hero">
-	  <h1>⚖️ Case Clarity</h1>
-	  <div class="small-muted">A focused legal document summarizer powered by your fine-tuned T5 model.</div>
+	  <h1>⚖️ CaseClarity</h1>
+	  <div class="small-muted">Automated Legal Document Summarization powered by fine-tuned T5 model.</div>
 	</div>
 	""",
 	unsafe_allow_html=True,
